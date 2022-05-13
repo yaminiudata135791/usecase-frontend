@@ -1,0 +1,139 @@
+.f-l{
+    float: left;
+    height: 100%;
+}
+.f-r{
+    float:right;
+    height: 100%;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.w-75{
+    width: 75%;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    height: 100px;
+   
+}
+
+.nav-btns{
+    width: 60%;
+    display:flex;
+    justify-content: center;
+}
+
+.login{
+    border: 0;
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.signup{
+    border: 0;
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.head{
+    color: black;
+    margin-top: 45px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.sub-head{
+    color: gray;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box{
+    width: 70%;
+    height: 60px;
+    border: 1px solid lightsalmon;
+    overflow: hidden;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    align-items: center;
+}
+
+.search-button{
+    width: 20%;
+    border: none;
+    background-color:lightsalmon;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.city{
+    padding-right: 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+.section-2{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 100px;
+    align-items: center;
+   
+ 
+   
+}
+
+.photo {
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    background-color: lightsalmon;
+    
+   
+   
+}
+
+.photo img {
+   
+    width: 100px;
+    height: 90%;
+}

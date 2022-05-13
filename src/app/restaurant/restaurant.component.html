@@ -1,0 +1,64 @@
+<!-- <ul>
+  <div *ngFor="let std of showRestaurant">
+    <li>{{std.restaurantName}}</li>
+  </div>
+</ul> -->
+
+
+
+
+
+
+
+<div class="card-list">
+    
+  <div *ngFor="let hotel of showRestaurant">
+      
+      <mat-card class="example-card">
+          <mat-card-header>
+            <div mat-card-avatar class="foodcard-header-image"></div>
+            <mat-card-title>{{hotel.restaurantName}}</mat-card-title>
+      <mat-card-subtitle>{{hotel.restaurantName}}</mat-card-subtitle> 
+          </mat-card-header>
+          <img mat-card-image [src]="hotel.restaurantImage" alt="Photo of a Burger">
+           <p>{{hotel.restaurantCuisine}}</p> 
+           <mat-card-actions>
+            <button (click)="onPress()">Order</button>
+            <!-- <button class="add-to-cart-btn"  (click)="onAddItem()">Add</button> -->
+           </mat-card-actions>
+        </mat-card>
+     
+  
+  </div>
+
+</div>
+
+
+  
+<!--    
+<div *ngFor="let hotel of showRestaurant">
+
+  <mat-card class="card">
+    
+    <mat-card-header>
+      <mat-card-title>{{hotel.restaurantName}}</mat-card-title>
+     
+     
+    </mat-card-header>
+    
+    <img  class="foodcard-header-image" mat-card-image [src]="hotel.restaurantImage" alt="Photo of a Burger">
+    <mat-card-content>
+      <p>{{hotel.restaurantCuisine}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button (click)="onPress()">Order</button>
+      
+    </mat-card-actions>
+  
+    
+ 
+  </mat-card>
+</div>  -->
+  
+
+

@@ -1,0 +1,27 @@
+.example-card{
+    max-width: 430px;
+    margin: 20px;
+    
+
+}
+.example-card-img{
+    width: 400px;
+    height: 400px;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 177, 146);
+}
+.button{
+    width:40%;
+  height: 7%;
+   /* background-color: rgb(250, 210, 195);  */
+  margin-left: 30%;
+  border-radius: 40px;
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: rgb(255, 177, 146);
+}

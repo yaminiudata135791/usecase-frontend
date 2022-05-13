@@ -1,0 +1,26 @@
+<div class="card-list">
+    <div *ngFor="let indian of showRestaurantTwo">
+   <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{indian.itemTwoName}}</mat-card-title>
+      <mat-card-subtitle>Bestseller</mat-card-subtitle>
+      <img src="../../assets/card logo.jpg" mat-card-avatar>
+     
+    </mat-card-header>
+    <img mat-card-image [src]="indian.itemImageTwo" alt="food">
+    <mat-card-content>{{indian.itemTwoPrice}}</mat-card-content>
+    
+    <mat-card-actions>
+      
+    <button mat-button>ADD TO CART</button>
+
+    </mat-card-actions>
+    
+  </mat-card>
+
+   
+</div>
+</div>
+
+<button class="button" >ORDER</button>

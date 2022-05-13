@@ -1,0 +1,22 @@
+<div class="card-list">
+    
+    <div *ngFor="let item of showRestaurantOne">
+        
+        <mat-card class="foodcard">
+            <mat-card-header>
+              <div mat-card-avatar class="foodcard-header-image"></div>
+              <mat-card-title>{{item.itemOneName}}</mat-card-title>
+        <mat-card-subtitle>{{item.itemOneName}}</mat-card-subtitle> 
+            </mat-card-header>
+            <img mat-card-image [src]="item.itemImageOne" alt="Photo of a Burger">
+             <p>{{item.itemOnePrice}}</p> 
+             <mat-card-actions>
+              <button class="add-to-cart-btn"  (click)="onAddItem(item)">Add</button>
+             </mat-card-actions>
+          </mat-card>
+       
+    
+    </div>
+
+</div>
+<button class="button" (click)="onSelectList()">ORDER</button>
